@@ -7,11 +7,8 @@ O RAG combina métodos de recuperação de informações com geração de texto 
 ## Componentes Principais
 
 * Langchain: Usado para a orquestração do pipeline de geração e recuperação, facilitando a integração dos componentes.
-
 * Chroma DB: Banco de dados vetorial que armazena e recupera embeddings para identificar documentos relevantes.
-
 * ChatGroq: Modelo de linguagem natural utilizado para a geração de texto, incorporando informações recuperadas.
-
 * TensorFlow Hub: Fonte de embeddings utilizados para converter texto em vetores, que são armazenados e buscados no Chroma DB.
 
 ## Arquitetura
